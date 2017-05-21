@@ -4,7 +4,7 @@
  webpack + react + react-router + redux + less + ES6 + fetch 
 
 
- ## 运行（nodejs 6.0+）
+ ## 运行
 ```
  1.npm install 安装相关依赖
  
@@ -15,5 +15,5 @@
 ```
 
 ## 项目总结
->布局上，采用rem布局进行了移动端的适配，通过对react，redux等技术的使用，进一步加深了理解;项目不足之处，欢迎指教;
+>布局上，采用rem布局进行了移动端的适配，通过对react，redux等技术的使用，进一步加深了理解;项目中用了fetch来发送请求数据，项目不足之处，欢迎指正;
 
