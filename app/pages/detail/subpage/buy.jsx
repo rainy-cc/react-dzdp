@@ -37,7 +37,7 @@ class BuyGoods extends React.Component {
     componentDidMont(){
         //当前是否已经被收藏
         const id = this.props.id;
-        const store = this.prosps.store;
+        const store = this.props.store;
         store.some(item=>{
             if(item.id === id){
                 this.setState({
