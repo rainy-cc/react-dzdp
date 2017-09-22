@@ -7,8 +7,9 @@ export default function userInfo(state = initialState, action) {
         case actionTypes.STORE_UPDATE:
             return action.data;
         case actionTypes.STORE_ADD:
-            state.unshift(action.data);
-            return state;
+            //state.unshift(action.data);
+            //return state;
+            return [action.data , ...state];
         case actionTypes.STORE_REMOVE:
             return state.filter((item , index) => {
                 if(item.id !== action.data.id){
